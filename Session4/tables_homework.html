@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Examples</title>
+    <link rel="stylesheet" href="tables.css">
+</head>
+<body>
+    <h1>User Information</h1>
+    <table border="1">
+        <caption>List of ufc fighters</caption>
+        <thead>
+            <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Age</th>
+            <th scope="col">Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="fakeusers">
+                <td>Merab Dvalishvili</td>
+                <td>30</td>
+                <td>merabdvalishvili@email.com</td>
+            </tr>
+            <tr class="fakeusers">
+                <td>Ilia Topuria</td>
+                <td>26</td>
+                <td>iliatopuria@email.com</td>
+            </tr>
+            <tr class="fakeusers">
+                <td>Roman Dolidze</td>
+                <td>34</td>
+                <td>romandolidze@email.com</td>
+            </tr>
+            <tr class="fakeusers">
+                <td>Giga Chikadze</td>
+                <td>32</td>
+                <td>gigachikadze@email.com</td>
+            </tr>
+            <tr class="fakeusers">
+                <td>Guram Qutateladze</td>
+                <td>31</td>
+                <td>guramqutateladze@email.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table border="1">
+        <h1>Weekly Schedule</h1>
+        <thead>
+            <tr>
+                <th scope="col2">Day</th>
+                <th scope="col2">Monday</th>
+                <th scope="col2">Tuesday</th>
+                <th scope="col2">Wednesday</th>
+                <th scope="col2">Thursday</th>
+                <th scope="col2">Friday</th>
+                <th scope="col2">Saturday</th>
+                <th scope="col2">Sunday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="time">
+                <td><b>Morning</b></td>
+                <td colspan="3">Working out</td>
+                <td rowspan="3">Meetings</td>
+                <td rowspan="2">coffee</td>
+                <td rowspan="3">Rest</td>
+                <td rowspan="3">Sparring</td>
+            </tr>
+            <tr class="time">
+                <td><b>Afternoon</b></td>
+                <td>paperwork</td>
+                <td colspan="2">Cardio</td>
+            </tr>
+            <tr class="time">
+                <td><b>Evening</b></td>
+                <td colspan="3">Working out</td>
+                <td>Meeting Fans</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table border="1">
+        <thead>
+            <h1>Shopping cart table</h1>
+            <tr>
+                <th scope="col3">Item Name</th>
+                <th scope="col3">Quantity</th>
+                <th scope="col3">Price per Item</th>
+                <th scope="col3">Total Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="items">
+                <td>Gloves</td>
+                <td>4</td>
+                <td>50$</td>
+                <td>200$</td>
+            </tr>
+            <tr class="items">
+                <td>Shorts</td>
+                <td>4</td>
+                <td>50$</td>
+                <td>200$</td>
+            </tr>
+            <tr class="items">
+                <td>Bandages</td>
+                <td>4</td>
+                <td>50$</td>
+                <td>200$</td>
+            </tr>
+            <tr class="items">
+                <td>Belts</td>
+                <td>4</td>
+                <td>50$</td>
+                <td>200$</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>Price for all Items:800$</tr>
+        </tfoot>
+    </table>
+</body>
+</html>

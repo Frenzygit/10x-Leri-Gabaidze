@@ -1,0 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: aqua;
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid red
+}
